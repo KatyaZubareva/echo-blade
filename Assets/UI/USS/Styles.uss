@@ -1,0 +1,68 @@
+Button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0;
+    font-size: 18px;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/MontserratAlternates-SemiBold.ttf?fileID=12800000&guid=089b8c9b6c9184e57b6c995417269077&type=3#MontserratAlternates-SemiBold");
+    margin-bottom: 30px;
+    background-image: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(212, 35, 69);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-text-align: middle-center;
+}
+
+Label {
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/MontserratAlternates-SemiBold.ttf?fileID=12800000&guid=089b8c9b6c9184e57b6c995417269077&type=3#MontserratAlternates-SemiBold");
+    font-size: 24px;
+    margin-bottom: 10%;
+}
+
+#goBackButton {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("project://database/Assets/UI/Assets/arrow.png?fileID=2800000&guid=691dab8d621154144a988a8b88e137d2&type=3#arrow");
+}
+
+#settingsButton {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("project://database/Assets/UI/Assets/settings.png?fileID=2800000&guid=f471dd7ccd05b479d85961c059f0fa1e&type=3#settings");
+    color: rgba(27, 27, 27, 0);
+}
+
+#Card {
+    padding-right: 3%;
+    margin-right: 2%;
+    padding-left: 3%;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/MontserratAlternates-SemiBold.ttf?fileID=12800000&guid=089b8c9b6c9184e57b6c995417269077&type=3#MontserratAlternates-SemiBold");
+    font-size: 32px;
+    -unity-text-align: lower-left;
+    padding-bottom: 2%;
+    -unity-font-style: bold;
+    background-image: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(212, 35, 69);
+    border-right-color: rgb(212, 35, 69);
+    border-top-color: rgb(212, 35, 69);
+    border-bottom-color: rgb(212, 35, 69);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+}
+
+#Header {
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

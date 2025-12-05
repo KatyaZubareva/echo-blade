@@ -1,0 +1,22 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/PlayerSetupStyles.uss?fileID=7433441132597879392&amp;guid=b7efd4f73c3064c819752cdaa5b6c642&amp;type=3#PlayerSetupStyles" />
+    <Style src="project://database/Assets/UI/USS/MainMenuStyles.uss?fileID=7433441132597879392&amp;guid=aeb113db30a6e4dbfa33fe8ef95c5af3&amp;type=3#MainMenuStyles" />
+    <ui:VisualElement name="MainContainer" style="flex-grow: 1; background-color: rgb(24, 24, 24);">
+        <ui:VisualElement name="Header" style="flex-grow: 1;">
+            <ui:Button text="Button" name="goBackButton" />
+            <ui:Button text="Button" name="settingsButton" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CardsContainer" style="flex-grow: 1; flex-direction: row; justify-content: center; align-content: center; margin-top: 0%; padding-top: 30%; padding-bottom: 5%; background-color: rgba(0, 0, 0, 0); height: 90%;">
+            <ui:Button text="Персонаж 1" name="Card" />
+            <ui:Button text="Персонаж 2" name="Card" />
+            <ui:Button text="Персонаж 3" name="Card" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Sidebar" style="flex-grow: 1; position: absolute; left: 75%; top: 20%; bottom: 50%; right: 5%; align-content: auto; justify-content: flex-end;">
+            <ui:Label text="Label" />
+            <ui:Label text="Label" />
+            <ui:Label text="Label" />
+            <ui:Label text="Label" />
+            <ui:Button text="Выбрать" name="selectButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

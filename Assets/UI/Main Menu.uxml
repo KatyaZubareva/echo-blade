@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/MainMenuStyles.uss?fileID=7433441132597879392&amp;guid=aeb113db30a6e4dbfa33fe8ef95c5af3&amp;type=3#MainMenuStyles" />
+    <ui:VisualElement name="Menu" style="flex-grow: 1; right: 0%; left: 0%; top: 0%; bottom: 0%; padding-right: 40%; -unity-text-align: upper-left; padding-left: 40%; justify-content: center; align-content: center; align-self: auto; visibility: visible; background-image: none; background-color: rgb(24, 24, 24);">
+        <ui:Label text="Echo Blade" name="Label" style="font-size: 100px; justify-content: center; align-items: center; align-self: center; -unity-text-align: upper-center; -unity-font-definition: url(&quot;project://database/Assets/UI/Fonts/Arthona.ttf?fileID=12800000&amp;guid=3121bc000f41b4eeaab39dc585a1d1a1&amp;type=3#Arthona&quot;); color: rgb(255, 255, 255); text-shadow: 0 0 0 rgb(255, 255, 255); -unity-text-outline-color: rgba(255, 255, 255, 0); margin-bottom: 70px;" />
+        <ui:Button text="Новая игра" name="startButton" />
+        <ui:Button text="Продолжить" name="continueButton" />
+        <ui:Button text="Выйти" name="exitButton" />
+    </ui:VisualElement>
+</ui:UXML>
