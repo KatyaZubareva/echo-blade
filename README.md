@@ -1,4 +1,4 @@
-Echo Blade
+# Echo Blade
 
 Game
 
